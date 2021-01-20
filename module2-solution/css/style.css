@@ -1,0 +1,129 @@
+
+		
+		.Chicken{
+			background-color: pink;
+			float: right;
+			border: 1px solid black;
+			
+		}
+		.beef{
+			background-color: red;
+			float: right;
+			border: 1px solid black;
+			
+		}
+		.Sushi{
+			background-color: yellow;
+			float: right;
+			border: 1px solid black;
+			
+		}
+		.content{
+			clear: both;
+		}
+		@media(min-width: 992px){
+			.box1{
+			/*width: 200px;
+			height:150px;*/
+			width: 30%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+			.box2{
+			/*width: 200px;
+			height:150px;*/
+			width: 30%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+			.box3{
+			/*width: 200px;
+			height:150px;*/
+			width: 30%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+	}
+			@media(min-width: 768px) and (max-width: 991px){
+				.box1{
+			/*width: 200px;
+			height:150px;*/
+			width: 45%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+			}
+			.box2{
+			/*width: 200px;
+			height:150px;*/
+			width: 45%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+			.box3{
+			/*width: 200px;
+			height:150px;*/
+			width: 93%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+		}
+
+			@media(max-width: 767px){
+				.box1{
+			/*width: 200px;
+			height:150px;*/
+			width: 95%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+			}
+			.box2{
+			/*width: 200px;
+			height:150px;*/
+			width: 95%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+			.box3{
+			/*width: 200px;
+			height:150px;*/
+			width: 95%;
+			float :left;
+			background-color: gray;
+			margin: 10px;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid black;
+		}
+			}
